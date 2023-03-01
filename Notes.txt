@@ -1,3 +1,13 @@
 Step 1:- Create 2 folder backend and frontend then make 2 files server.js and app.js in backend 
 Step 2:- npm init in the main directory name the project,entry point -> backend/server.js
 Step 3 :- install npm i exxpress mongoose dotenv
+Step 4: Create config folder and in it create config.env and use it for all your variables
+Step 5: Create 2 folders 1.Controllers,2.Route then in 1 create productControllers.js and in 1 create productRoute.js
+write an export function in controller to "getAllProducts" and import it in routes to route it to the function and then import route
+in app.js.
+
+This is your initiation function created..
+
+Now we connect our database
+Step 6: Create a database.js file in config folder(any folder is fine) and write the connection code inside a function and export it
+ then call that function in server.js and done
