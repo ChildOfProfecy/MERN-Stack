@@ -15,3 +15,9 @@ Step 6: Create a database.js file in config folder(any folder is fine) and write
 
 Step 7: Now we create our product Model here we define what are the required criterias of our product when adding a new one,
 create a model folder in backend and in that create productModel to define your products model
+
+Step 8:We set up all the methods for product management i.e. All the CURD Operations in the controllers.js file and give routes to all
+of them in routes file
+
+Step 9: After this we check it in postman and add a new folder for our work as we will use it a lot.
+
