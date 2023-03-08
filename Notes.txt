@@ -11,3 +11,7 @@ This is your initiation function created..
 Now we connect our database
 Step 6: Create a database.js file in config folder(any folder is fine) and write the connection code inside a function and export it
  then call that function in server.js and done
+
+
+Step 7: Now we create our product Model here we define what are the required criterias of our product when adding a new one,
+create a model folder in backend and in that create productModel to define your products model
