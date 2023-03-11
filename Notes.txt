@@ -21,3 +21,13 @@ of them in routes file
 
 Step 9: After this we check it in postman and add a new folder for our work as we will use it a lot.
 
+Step 10:Now we add all the errorHandlers that are:
+    1.Normal Backend Error,
+    2.Async Error,
+    3.Unhandled Promise Rejection
+    4.Uncaught Exception
+    5.MongoDB Error
+
+
+Step 11: Now we add an api for searching,Filtering and pagination(i.e. number of product on 1 page) this api will take care of all the 
+searching.
