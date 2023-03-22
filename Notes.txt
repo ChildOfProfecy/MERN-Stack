@@ -31,3 +31,9 @@ Step 10:Now we add all the errorHandlers that are:
 
 Step 11: Now we add an api for searching,Filtering and pagination(i.e. number of product on 1 page) this api will take care of all the 
 searching.
+
+Step 12:Now we download a bunch for required tools "npm i bcryptjs jsonwebtoken validator nodemailer cookie-parser body-parser"
+
+Step 13: Now Similar to Product we will create a user Model route and contoller with functions:
+    1.Register
+    
