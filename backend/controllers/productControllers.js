@@ -14,7 +14,6 @@ exports.createProduct = catchAsyncError(async (req,res,next)=>{
 });
 
 //Update Product --Admin
-
 exports.updateProduct =catchAsyncError( async (req,res) => {
     let product = Product.find(req.params.id);
 
@@ -32,7 +31,6 @@ exports.updateProduct =catchAsyncError( async (req,res) => {
 });
 
 //Delete Product--Admin
-
 exports.deleteProduct = catchAsyncError( async(req,res,next) =>{
 
     const product = await Product.findById(req.params.id)
